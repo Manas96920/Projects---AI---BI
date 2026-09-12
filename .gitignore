@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# runtime cache (regenerated on first run)
+agent/panel_cache.json
+
+# editor / tooling noise
+.vscode/
+.mypy_cache/
+__pycache__/
+.ipynb_checkpoints/
+
+# not part of this project
+portfolio-projects-ai-automated-bi.md
+Project1.ipynb
