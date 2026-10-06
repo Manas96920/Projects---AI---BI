@@ -1,4 +1,0 @@
-# Stable source line endings; preserve the PDF and PNG bytes on Windows too.
-* text=auto eol=lf
-*.pdf binary
-*.png binary
