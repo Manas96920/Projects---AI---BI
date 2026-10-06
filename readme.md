@@ -173,3 +173,14 @@ RETURN CALCULATE ( MAX ( exec_summary[summary_text] ), ALL ( exec_summary ),
 ## Data
 
 Olist Brazilian E-Commerce Public Dataset, Kaggle, CC BY-NC-SA 4.0. Covers Sep 2016 – Aug 2018. All monetary values in Brazilian reais (BRL). This project is not affiliated with Olist.
+
+
+---
+
+## Project 2: Automated Recurring Report Generator
+
+[Explore the full reporting pipeline](automated-recurring-report-generator/README.md):
+PostgreSQL → quality checks → KPIs/charts → Gemini summary → dated PDF → Windows scheduling.
+The notebook and standalone runner use global Python 3.12 and require no dashboard tool.
+
+[View the four-page sample report](automated-recurring-report-generator/sample_reports/olist_monthly_2018-07-01_2018-07-31_generated_2026-10-06.pdf).
